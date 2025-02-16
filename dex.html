@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Profile Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+    <style>
+        /* Custom styles for the portfolio */
+
+        /* Body styles */
+        body {
+            font-family: 'Arial', sans-serif; /* Change the font family */
+        }
+
+        /* Sidebar styles */
+        .sidebar {
+            background-color: #2d3748; /* Darker background for sidebar */
+        }
+
+        /* Profile picture styles */
+        .profile-picture {
+            border: 2px solid #4a5568; /* Add a border to the profile picture */
+        }
+
+        /* Main content styles */
+        .main-content {
+            background-color: #1a202c; /* Darker background for main content */
+        }
+
+        /* Heading styles */
+        h1 {
+            color: #f7fafc; /* Light color for headings */
+        }
+
+        /* Paragraph styles */
+        p {
+            color: #e2e8f0; /* Slightly lighter color for paragraphs */
+        }
+
+        /* Link styles */
+        a {
+            transition: color 0.3s; /* Smooth transition for link hover */
+        }
+
+        a:hover {
+            color: #63b3ed; /* Change link color on hover */
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-white">
+    <div class="flex h-screen">
+        <!-- Sidebar -->
+        <div class="w-1/4 bg-gray-800 p-6 flex flex-col items-center">
+            <img alt="Profile picture of Yeamin Khan" class="rounded-full mb-4 profile-picture" height="100" src="https://storage.googleapis.com/a1aa/image/XgMIDXmduW8rbdI2PwI5HKbmsAZ7iplZIgAVj97TYKw.jpg" width="100"/>
+            <h1 class="text-xl font-bold mb-2">Yeamin Khan</h1>
+            <div class="flex space-x-3 mb-6">
+                <a class="text-gray-400 hover:text-white" href="#"><i class="fab fa-facebook-f"></i></a>
+                <a class="text-gray-400 hover:text-white" href="#"><i class="fab fa-twitter"></i></a>
+                <a class="text-gray-400 hover:text-white" href="#"><i class="fab fa-instagram"></i></a>
+                <a class="text-gray-400 hover:text-white" href="#"><i class="fab fa-skype"></i></a>
+                <a class="text-gray-400 hover:text-white" href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <nav class="flex flex-col space-y-4 w-full">
+                <a class="flex items-center space-x-2 text-gray-400 hover:text-white" href="#"><i class="fas fa-home"></i><span>Home</span></a>
+                <a class="flex items-center space-x-2 text-gray-400 hover:text-white" href="#"><i class="fas fa-user"></i><span>About</span></a>
+                <a class="flex items-center space-x-2 text-gray-400 hover:text-white" href="#"><i class="fas fa-file-alt"></i><span>Resume</span></a>
+                <a class="flex items-center space-x-2 text-gray-400 hover:text-white" href="#"><i class="fas fa-briefcase"></i><span>Portfolio</span></a>
+                <a class="flex items-center space-x-2 text-gray-400 hover:text-white" href="#"><i class="fas fa-cogs"></i><span>Services</span></a>
+                <a class="flex items-center space-x-2 text-gray-400 hover:text-white" href="#"><i class="fas fa-chevron-down"></i><span>Dropdown</span></a>
+                <a class="flex items-center space-x-2 text-gray-400 hover:text-white" href="#"><i class="fas fa-envelope"></i><span>Contact</span></a>
+            </nav>
+        </div>
+        <!-- Main Content -->
+        <div class="w-3/4 relative">
+            <img alt="Background image of a man sitting on a bench with a cup of coffee" class="w-full
